@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE project [
+<!ELEMENT project (index,code,autors[],autorscount,name,date,version,
+function[],specyfication[],api[],example[],language,technology,text[],
+supported,adress/api,notes)>
+<!ELEMENT index (int)>
+<!ELEMENT autors[] (#PCDATA[])>
+<!ELEMENT autorscount (int)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT date (date)>
+<!ELEMENT version (int)>
+<!ELEMENT function[] (#PCDATA[])>
+<!ELEMENT specyfication[] (#PCDATA[])>
+<!ELEMENT api[] (#PCDATA[])>
+<!ELEMENT example[] (#PCDATA[])>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT technology (#PCDATA)>
+<!ELEMENT text[] (#PCDATA[])>
+<!ELEMENT supported (bool)>
+<!ELEMENT adress/api (#PCDATA)>
+<!ELEMENT notes (#PCDATA)>
+]>
+<tablica>
+    <index>
+    <autors[]>
+    <autorscount>
+    <name>
+    <date>
+    <version>
+    <function[]>
+    <specyfication[]>
+
+
+
+zrobić w 
+
+

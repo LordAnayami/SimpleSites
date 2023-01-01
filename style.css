@@ -1,0 +1,29 @@
+breakfast_menu{
+    background-image: url('scroll.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 200%;
+}
+name {
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+price {
+    display: block;
+    font-style: italic;
+    font-size: 16px;
+    text-decoration: underline;
+}
+description {
+    display: block;
+    color:green;
+    font-size: 14px;
+}
+calories {
+    display: block;
+    color:blue;
+    font-size: 14px;
+}
+

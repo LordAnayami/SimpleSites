@@ -1,0 +1,47 @@
+body.str1{
+    background-image: url('scroll.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 200%;
+}
+h1 {
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+h2 {
+    font-style: italic;
+    font-size: 16px;
+    text-decoration: underline;
+}
+p {
+    color:green;
+    font-size: 14px;
+}
+div {
+    color:blue;
+    font-size: 14px;
+}
+
+a{
+
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    
+}
+a:hover{
+    color: orange !important;
+}
+a:visited{
+    color: blueviolet;
+}
+a:active{
+    color: brown;
+}

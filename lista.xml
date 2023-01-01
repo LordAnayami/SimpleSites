@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE lista SYSTEM "lista.dtd"><-->
+<!DOCTYPE lista [
+<!ELEMENT lista (id*)>
+<!ELEMENT id (imie, nazwisko, tytul, gatunek, sezon)>
+<!ELEMENT imie (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+<!ELEMENT tytul (#PCDATA)>
+<!ELEMENT gatunek (#PCDATA)>
+<!ELEMENT sezon (#PCDATA)> 
+]>
+<lista>
+    <id>
+        <imie>Na</imie>
+        <nazwisko>Ma</nazwisko>
+        <tytul>Ta</tytul>
+        <gatunek>Fantasy</gatunek>
+        <sezon>Zima 2021</sezon>
+    </id>
+    <id>
+        <imie>Nb</imie>
+        <nazwisko>Mb</nazwisko>
+        <tytul>Tb</tytul>
+        <gatunek>Romans</gatunek>
+        <sezon>Lato 2021</sezon>
+    </id>
+     <id>
+        <imie>Nc</imie>
+        <nazwisko>Mc</nazwisko>
+        <tytul>Tc</tytul>
+        <gatunek>Historyczne</gatunek>
+        <sezon>Jesień 2021</sezon>
+    </id>
+</lista>

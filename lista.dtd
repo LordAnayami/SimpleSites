@@ -1,0 +1,9 @@
+<!DOCTYPE lista [
+<!ELEMENT lista (id)>
+<!ELEMENT id (imie, nazwisko, tytul, gatunek, sezon)>
+<!ELEMENT imie (#PCDATA)>
+<!ELEMENT nazwisko (#PCDATA)>
+<!ELEMENT tytul (#PCDATA)>
+<!ELEMENT gatunek (#PCDATA)>
+<!ELEMENT sezon (#PCDATA)> 
+]>

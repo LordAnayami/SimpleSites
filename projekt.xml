@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE index [
+<!ELEMENT index (code,autors,autorscount,name,date,version,
+function,specification,api,example,language,technology,text,
+supported,addressurl,notes)>
+<!ELEMENT code (#PCDATA)>
+<!ELEMENT version (#PCDATA)>
+<!ELEMENT authors (author+)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT authorscount (#PCDATA)>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT functions (function+)>
+<!ELEMENT function (#PCDATA)>
+<!ELEMENT specifications (specification)>
+<!ELEMENT specification (#PCDATA)>
+<!ELEMENT apis (api)>
+<!ELEMENT api (#PCDATA)>
+<!ELEMENT examples (example)>
+<!ELEMENT example (#PCDATA)>
+<!ELEMENT language (#PCDATA)>
+<!ELEMENT technology (#PCDATA)>
+<!ELEMENT tests (test)>
+<!ELEMENT test (#PCDATA)>
+<!ELEMENT supported (bool)>
+<!ELEMENT addressurl (#PCDATA)>
+<!ELEMENT notes (#PCDATA)>
+]>
+<index>
+    <code>KSMWRB3105J1985</code>
+    <version>1</version>
+    <authors>
+        <author>Mateusz Wenta</author>
+    </authors>
+    <authorscount>3</authorscount>
+    <date>07-05-22</date>
+    <name>GUI Kalkulator brył</name>
+    <functions>
+        <function>Odbieranie danych</function>
+        <function>Wyświetlanie danych</function>
+        <function>Wysyłanie danych</function>
+    </functions>
+    <specifications>
+    <specification>wyświetlanie danych na podstawie danych wejściowych, obliczenia są wykonywane w komponentach bryłowych </specification>
+    </specifications>
+    <apis>
+    <apis>
+        <api>przyjmowanie danych od komponentu brył w celu wyświetlenia wyniku obliczeń dokonanych</api>
+    </apis>
+    <examples>
+    <example> input: V = 200, output: V = 200</example>
+    </examples>
+    <language>Java</language>
+    <technology>Java Beans</technology>
+    <tests>
+    <test>Insert imput. See if output = imput. </test>
+    </tests>
+    <supported>True</supported>
+    <addressurl>www.brylki.pl/gui</addressurl>
+    <notes>Just a code...</notes>
+</index>
